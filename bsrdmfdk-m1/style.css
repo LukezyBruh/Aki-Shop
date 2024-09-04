@@ -1,0 +1,604 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+/* ------- шапка ------ */
+
+.logo img{
+    width: 150px;
+}
+
+.top{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #b4ccf0;
+}
+
+.top h1{
+    color: #081c36;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.menu_items, .menu_reg{
+    background-color: #b4ccf0;
+    color: #081c36;
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.menu_login{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.menu_login li{
+    padding: 0px 20px;
+}
+
+.menu_login button, .menu_reg button{
+    color: #ffffff;
+    background-color: #0860D2;
+    border: 2px solid #0860D2;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.menu_login button:hover, .menu_reg button:hover{
+    background: #084eaa;
+    color:#ffffff;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #084eaa;
+}
+
+.exit_button, .connect button{
+    color: #ffffff;
+    background-color: #0860D2;
+    border: 2px solid #0860D2;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.menu_reg a{
+    color: #30383b;
+}
+
+/* ------- шапка ------ */
+
+/* ------- фон -------  */
+
+.content {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    background: url(/images/fon1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ------- фон -------  */
+
+/*-------- форма ------*/
+
+.content .head{
+    color: #081c36;
+    font-size: 40px;
+}
+
+.registr button, .login button{
+    color: #ffffff;
+    background-color: #0860D2;
+    border: 2px solid #0860D2;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.registr button:hover, .login button:hover{
+    background: #084eaa;
+    border: 2px solid #084eaa;
+    color:#ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.registr {
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4ccf0;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.login {
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4ccf0;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.form {
+    width: 350px;
+}
+
+.form input{
+    border-radius: 20px;
+    border: 2px solid #709bd4;
+}
+
+.form input:focus{
+    border: 2px solid #2258a0;
+}
+
+.content input {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.part input{
+    width: 40px;
+}
+
+/* ---- форма ---- */
+
+/* ---- сообщение ---- */
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b4ccf0;
+}
+
+/* ---- сообщение ---- */
+
+/* ---- каталог ----- */
+
+.head_catalog {
+    text-align: center;
+}
+
+.head_catalog {
+    padding: 15px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.col_catalog {
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    width: 430px;
+    height: 100%;
+    margin: 30px 65px 10px 65px;
+    border-radius: 20px;
+}
+
+.col_catalog img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.col_catalog h3 a{
+    font-size: 20px;
+    color: #000000;
+}
+
+.row_catalog {
+    text-align: left;
+}
+
+.row_catalog_admin {
+    display: flex;
+    justify-content: center;
+}
+
+.test {
+    width: 300px;
+    margin: 30px 65px 10px 65px;
+}
+
+.text-right{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    font-size: large;
+    color: #000000;
+}
+
+.text-right p{
+    color: #000000;
+}
+
+.text-small {
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    color: #000000;
+}
+
+.text-right button{
+    color: #ffffff;
+    background-color: #0860D2;
+    border: 2px solid #0860D2;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.text-right a:hover{
+    color:#628c9b;
+    transition: 0.2s ease-in-out;
+}
+
+.image img{
+    height: 500px;
+}
+
+/*----------*/
+
+.head_product{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+}
+
+.product_wrap {
+    background-color: #fff;
+    padding: 30px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.test_product {
+    width: 400px;
+    margin: 20px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.test_product img{
+    width: 400px;
+}
+
+.product_wrap .image{
+    padding: 20px;
+}
+
+.product_wrap .price_p, .product_wrap p, .product_wrap h3{
+    font-size: 20px;
+}
+
+.content_product{
+    margin-bottom: 100px;
+}
+/* ------ каталог ----- */
+
+/*------- корзина --------*/
+
+.content_cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content_cart{
+    background: url(/images/fon1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.head_cart{
+    margin: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.col_cart{
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    width: 430px;
+    height: 100%;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.col_cart a{
+    color: #081c36;
+}
+
+.col_cart img{
+    margin: 30px 65px 10px 65px;
+    width: 300px;
+}
+
+.wrap1 button{
+    color: #ffffff;
+    background-color: #0860D2;
+    border: 2px solid #0860D2;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.wrap1 button:hover{
+    background: #084eaa;
+    border: 2px solid #084eaa;
+    color:#ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.text_product{
+    margin: 10px 0px;
+}
+
+.col{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.row_cart {
+    padding: 10px;
+}
+
+.w100 button{
+    display: block;
+}
+
+/**/
+
+.wrap1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.row_zakaz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.row_zakaz a{
+    padding:0px 10px;
+    color: #000000;
+}
+
+.row_product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_product p{
+    padding: 10px;
+}
+
+.row_kolvozakazov a{
+    padding: 0px 10px;
+}
+
+.text-left1 p{
+    color:#000000;
+}
+
+.content_admin_update .form, .content_admin .form{
+    height: 100%;
+    margin: 20px;
+}
+
+.content_admin_update input, .content_admin input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: 330px;
+}
+
+.block_color{
+    background-color: #b4ccf0;
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.content_admin, .content_admin_update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content_admin, .content_admin_update{
+    background: url(/images/fon1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content_admin button{
+    color: #30383b;
+    border: 2px solid #afd4f4;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.content_admin h1, .content_admin_update h1{
+    font-size: 40px;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+
+form{
+    width: auto;
+}
+
+/**/
+
+.input-file p{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.input-file {
+    padding-left: 30px;
+	display: inline-block;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+}
+
+.input-file-btn {
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #0860D2;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.input-file-text {
+	padding: 0 10px;
+	line-height: 40px;
+	display: inline-block;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+ 
+.input-file:hover .input-file-btn {
+	background-color: #084eaa;
+}
+.input-file:active .input-file-btn {
+	background-color: #084eaa;
+}
+ 
+.col_text_left{
+    width: 400px;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+
+.block_button{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.block_button button, .content_product button{
+    color: #ffffff;
+    background-color: #0860D2;
+    border: 2px solid #0860D2;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.block_button button:hover, .content_product button:hover{
+    background: #084eaa;
+    color:#ffffff;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #084eaa;
+}
+
